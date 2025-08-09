@@ -1,0 +1,159 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>mood.skin – Your Skin, Your Mood</title>
+  <meta name="description" content="Smart skincare recommendations for every mood and moment." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+
+  <!-- OG meta removed (add later when og-cover exists) -->
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#">
+        <img src="logo.png" width="28" height="28" alt="mood.skin logo"/>
+        <span>mood.skin</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#join">Join</a>
+      </nav>
+      <a class="btn" href="#join">Get Started</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge">
+            <img src="logo.png" width="18" height="18" alt="droplet"/>
+            Smart skincare
+          </span>
+          <div class="spacer"></div>
+          <h1 class="h1">Your Skin, Your Mood</h1>
+          <p class="lead">Smart skincare recommendations for every mood and moment.</p>
+          <div class="cta-row">
+            <a class="btn" href="#join">Get Started</a>
+            <a class="btn ghost" href="#features">See how it works</a>
+          </div>
+        </div>
+        <div class="hero-card" id="demo">
+          <div class="phone hero-phone" aria-hidden="true">
+            <div class="phone-screen">
+              <div class="phone-top">Mood <span>⋯</span></div>
+              <div class="phone-logo">
+                <img src="logo.png" width="72" height="72" alt="mood drop"/>
+                <div class="phone-mood">Calm</div>
+              </div>
+              <div class="phone-card">
+                <div class="pc-title">Hydrating Serum</div>
+                <div class="pc-sub">For soft, supple skin</div>
+              </div>
+              <div class="phone-row">
+                <div class="pill">Sleep 8h</div>
+                <div class="pill">Hydration +2</div>
+              </div>
+              <div class="phone-actions">
+                <button class="btn">Save</button>
+                <button class="btn ghost">Later</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h1 small">How mood.skin works</h2>
+          <p class="lead">Three simple steps to calmer skin and mind.</p>
+        </div>
+        <div class="features-grid">
+          <article class="card">
+            <div class="icon"><img src="icon-analyze.png" alt="Analyze" width="28" height="28"></div>
+            <h3>Analyze</h3>
+            <p>Track your skin and mood changes with quick daily check-ins.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><img src="icon-recommend.png" alt="Recommend" width="28" height="28"></div>
+            <h3>Recommend</h3>
+            <p>Personalized routines that adapt to how you feel.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><img src="icon-improve.png" alt="Improve" width="28" height="28"></div>
+            <h3>Improve</h3>
+            <p>See trends and progress. Less irritation, more balance.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><img src="icon-profile.png" alt="Kind by design" width="28" height="28"></div>
+            <h3>Kind by design</h3>
+            <p>No noise. Gentle reminders and privacy-first by default.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h1 small">What users are saying</h2>
+        </div>
+        <div class="t-grid">
+          <div class="t"><strong>“A game changer for my skincare.”</strong><br><small>Emma</small></div>
+          <div class="t"><strong>“I love how it adapts to feelings.”</strong><br><small>Lisa</small></div>
+          <div class="t"><strong>“My skin has never felt better.”</strong><br><small>Janelle</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA band -->
+    <section id="join" class="container">
+      <div class="cta">
+        <div class="cta-grid">
+          <div>
+            <h2 class="h1 cta-title">Be the first to try mood.skin</h2>
+            <p class="cta-sub">Join the waitlist — invites go out in small batches.</p>
+          </div>
+          <form onsubmit="event.preventDefault(); alert('Thanks! You\'re on the list.');">
+            <input class="input" type="email" placeholder="Enter your email" required>
+            <button class="btn" type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container row">
+      <div class="brand">
+        <img src="logo.png" width="24" height="24" alt="logo small"/>
+        <span>mood.skin</span>
+      </div>
+      <div class="foot-links">
+        <a href="#">About</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+```
